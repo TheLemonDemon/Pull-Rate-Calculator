@@ -1,4 +1,4 @@
-pack = input("Are you opening up Genetic Apex (G), Space-Time Smackdown (S), or Triumphant Light (T)?\n")
+pack = input("Are you opening up Genetic Apex (G), Mythical Island (M), Space-Time Smackdown (S), or Triumphant Light (T)?\n")
 commonNum = input("How many One diamonds do you need?\n")
 uncommonNum = input("How many Two diamonds do you need?\n")
 holoNum = input("How many Three diamonds do you need?\n")
@@ -13,6 +13,17 @@ if pack.upper() == "G":
 
     SCOddsU = .01714
     SCOddsH = .01428
+    SCOddsE = .01332
+
+elif pack.upper() == "M":
+    CCOdds = .03125
+    
+    FCOddsU = .03913
+    FCOddsH = .00625
+    FCOddsE = .00333
+
+    SCOddsU = .02608
+    SCOddsH = .02500
     SCOddsE = .01332
 
 elif pack.upper() == "S":
